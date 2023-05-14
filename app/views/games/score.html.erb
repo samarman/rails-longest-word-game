@@ -1,0 +1,10 @@
+<h1>Result</h1>
+<h4>Your guess was:</h4>
+<p class="border rounded p-3 shadow me-3 bg-primary text-light w-25 fs-4 fw-semibold"><%=@guess%></p>
+<h4>Your score is:</h4>
+<p class="border rounded p-3 shadow me-3 bg-success text-light w-25 fs-4 fw-semibold"><%=@score%></p>
+
+<p><%= @result %></p>
+<div>
+    <p><%= link_to "Start Over", new_path %></p>
+  </div>
